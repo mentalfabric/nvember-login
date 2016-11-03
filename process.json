@@ -1,0 +1,9 @@
+{
+  "apps" : [{
+    "name" : "nvember-login",
+    "script" : "bin/www",
+    "watch" : ["app.js", "modules", "public", "routes", "views", "bin", "models"],
+    "watch_options" : {"usePolling": true},
+    "log_date_format" : "YYYY-MM-DD HH:mm Z"
+  }]
+}

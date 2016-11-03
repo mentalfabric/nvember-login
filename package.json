@@ -3,12 +3,13 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "pm2 kill && env $(cat .env) pm2 start bin/www && pm2 logs"
+    "start": "pm2 kill && env $(cat .env) pm2 start process.json && pm2 logs"
   },
   "dependencies": {
     "bcrypt": "^0.8.7",
     "bluebird": "^3.4.6",
     "body-parser": "~1.15.1",
+    "bootstrap": "^3.3.7",
     "cookie-parser": "~1.4.3",
     "debug": "~2.2.0",
     "ejs": "~2.4.1",
